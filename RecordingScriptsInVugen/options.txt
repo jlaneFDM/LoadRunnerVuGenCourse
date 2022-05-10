@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\VuGenTutorial\VuGenScripts\RecordingScriptsInVugen
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\vugentutorial\vugenscripts\recordingscriptsinvugen\\logfile.log
+c:\vugentutorial\vugenscripts\recordingscriptsinvugen\\combined_RecordingScriptsInVugen.c
+c:\vugentutorial\vugenscripts\recordingscriptsinvugen\\pre_cci.c

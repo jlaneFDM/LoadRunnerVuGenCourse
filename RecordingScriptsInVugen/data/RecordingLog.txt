@@ -1,0 +1,161 @@
+[API Trapper      (35bc:16d4)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (2034:3a7c)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (3460:3a1c)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (35bc:3b70)] ------------------------------------------------------------------------------------------
+[Network Analyzer (35bc:3b70)] Load Network Traffic Analyzers:
+[Network Analyzer (35bc:3b70)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (35bc:3b70)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (35bc:3b70)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (35bc:3b70)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (35bc:3b70)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (35bc:3b70)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (35bc:3b70)]     Analyzer Module: local_server (value=)
+[Network Analyzer (35bc:3b70)] ------------------------------------------------------------------------------------------
+[Network Analyzer (35bc: e88)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:39dc)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:3b70)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:3b70)] Request Connection: Remote Server @ 65.52.5.117:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (35bc:39dc)] Request Connection: Remote Server @ 65.52.5.117:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (35bc: 538)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: 538)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:2f64)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:2f64)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:395c)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:395c)] Request Connection: Remote Server @ 204.79.197.203:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (35bc:3058)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc: e68)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:3b5c)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:38f0)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMALEtqRe8Bkb2gHQgAAAAsS2o%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (35bc:3058)] Request Connection: Remote Server @ 52.153.255.222:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (35bc: e68)] Request Connection: Remote Server @ 52.153.255.222:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 467 bytes  (Service=HTTP)
+[Network Analyzer (35bc:32b4)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMALEtqRe8Bkb2gHQgAAAAsS2o%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 292 bytes (Service=HTTP)
+[Network Analyzer (35bc:32b4)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 466 bytes  (Service=HTTP)
+[Network Analyzer (35bc: e68)] Request Connection: Remote Server @ 2600:140A:0:692:0:0:0:356E: - 80  (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (35bc:344c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:344c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (35bc: dac)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (35bc: dac)]   (Sid:  6) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (35bc: dac)]   (Sid:  6) Server -> Client : 1410 bytes  (Service=HTTP)
+[Web Request      (35bc: dac)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (35bc: dac)]   (Sid:  6) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (35bc: dac)]   (Sid:  6) Server -> Client : 1410 bytes  (Service=HTTP)
+[Network Analyzer (35bc:3b5c)] Request Connection: Remote Server @ 52.153.255.222:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (35bc:38f0)] Request Connection: Remote Server @ 52.153.255.222:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (35bc:36f8)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:36f8)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAMiAyCrW%2F0zYeJ%2FQAAAAyIDI%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 253 bytes (Service=HTTP)
+[Network Analyzer (35bc:3738)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:3738)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 467 bytes  (Service=HTTP)
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAMiAyCrW%2F0zYeJ%2FQAAAAyIDI%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 296 bytes (Service=HTTP)
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 466 bytes  (Service=HTTP)
+[Network Analyzer (35bc: e88)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (35bc:3b5c)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:14e8)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc: e68)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc: e68)] Request Connection: Remote Server @ 104.42.172.226:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (35bc:14e8)] Request Connection: Remote Server @ 104.42.172.226:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (35bc:3b5c)] Request Connection: Remote Server @ 104.42.172.226:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (35bc:1f8c)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:1f8c)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAMh7RFx6DfwGjjIgAAAAyHtE%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 467 bytes  (Service=HTTP)
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAMh7RFx6DfwGjjIgAAAAyHtE%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 292 bytes (Service=HTTP)
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 466 bytes  (Service=HTTP)
+[Network Analyzer (35bc:34c0)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (35bc: dac)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (35bc: dac)]   (Sid:  6) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (35bc:34c0)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: dac)]   (Sid:  6) Server -> Client : 1305 bytes  (Service=HTTP)
+[Web Request      (35bc: dac)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (35bc: dac)]   (Sid:  6) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (35bc: dac)]   (Sid:  6) Server -> Client : 1305 bytes  (Service=HTTP)
+[Network Analyzer (35bc:3584)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:3584)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: e88)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (35bc: e68)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:38f0)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:14e8)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc: e68)] Request Connection: Remote Server @ 52.153.255.201:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (35bc:14e8)] Request Connection: Remote Server @ 52.153.255.201:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (35bc:38f0)] Request Connection: Remote Server @ 52.153.255.201:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (35bc:19d8)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:19d8)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAMiAyCrW%2F0zYeJ%2FQAAAAyIDI%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 253 bytes (Service=HTTP)
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 466 bytes  (Service=HTTP)
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAMiAyCrW%2F0zYeJ%2FQAAAAyIDI%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 296 bytes (Service=HTTP)
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 466 bytes  (Service=HTTP)
+[Web Request      (35bc: dac)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (35bc: dac)]   (Sid:  6) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (35bc: dac)]   (Sid:  6) Server -> Client : 1410 bytes  (Service=HTTP)
+[Web Request      (35bc: dac)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (35bc: dac)]   (Sid:  6) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (35bc:2290)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:2290)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: dac)]   (Sid:  6) Server -> Client : 1410 bytes  (Service=HTTP)
+[Network Analyzer (35bc: 504)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: 504)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: e88)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (35bc:3b5c)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:3b5c)] Request Connection: Remote Server @ 20.81.51.95:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (35bc:3720)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:3720)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAMh759rNSR%2FLjxQoAAAAyHvk%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 251 bytes (Service=HTTP)
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 467 bytes  (Service=HTTP)
+[Web Request      (35bc: e88)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAMh759rNSR%2FLjxQoAAAAyHvk%3D"   
+[Network Analyzer (35bc: e88)]   (Sid:  3) Client -> Server @ : 294 bytes (Service=HTTP)
+[Network Analyzer (35bc: e88)]   (Sid:  3) Server -> Client : 466 bytes  (Service=HTTP)
+[Web Request      (35bc: dac)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (35bc: dac)]   (Sid:  6) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (35bc: dac)]   (Sid:  6) Server -> Client : 1305 bytes  (Service=HTTP)
+[Web Request      (35bc: dac)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (35bc: dac)]   (Sid:  6) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (35bc: dac)]   (Sid:  6) Server -> Client : 1305 bytes  (Service=HTTP)
+[Network Analyzer (35bc:3bb4)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:3bb4)] Request Connection: Remote Server @ 20.81.51.95:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (35bc:2bcc)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:2bcc)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: e68)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc: e68)] Request Connection: Remote Server @ 20.81.51.95:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (35bc:17fc)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:17fc)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: e88)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (35bc:3734)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc: e68)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:3300)] Address lookup for LAPTOP-2VKM7MTT = 192.168.0.17
+[Network Analyzer (35bc:3734)] Request Connection: Remote Server @ 52.153.255.222:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (35bc:3300)] Request Connection: Remote Server @ 52.153.255.222:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (35bc: e68)] Request Connection: Remote Server @ 52.153.255.222:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (35bc:1b54)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:1b54)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:36c4)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc:36c4)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: 22c)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: 22c)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35bc: e88)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (35bc: e88)]   (Sid: 20) Connection Terminated (by Client)

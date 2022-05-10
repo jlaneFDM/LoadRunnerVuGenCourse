@@ -1,0 +1,11 @@
+[t7]
+FileName1=t7.html
+URL1=https://clients1.google.com/tools/pso/ping?as=chrome&brand=CHBF&pid=&hl=en&rep=2&rlz=C1:1C1CHBF_enCA866CA866,C2:1C2CHBF_enCA866,C7:1C7CHBF_enCA866
+Total=1
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
