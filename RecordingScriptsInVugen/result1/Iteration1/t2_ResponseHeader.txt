@@ -5,15 +5,15 @@ x-content-type-options: nosniff
 cache-control: no-cache, no-store, max-age=0, must-revalidate
 pragma: no-cache
 expires: Mon, 01 Jan 1990 00:00:00 GMT
-date: Tue, 10 May 2022 14:50:44 GMT
+date: Tue, 10 May 2022 14:58:40 GMT
 strict-transport-security: max-age=31536000; includeSubDomains
 cross-origin-opener-policy: same-origin; report-to="IdentityListAccountsHttp"
-content-security-policy: require-trusted-types-for 'script';report-uri /_/IdentityListAccountsHttp/cspreport
-content-security-policy: script-src 'report-sample' 'nonce-Zhha7ZoH8MSWBfh9AoOaIg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'
-content-security-policy: script-src 'nonce-Zhha7ZoH8MSWBfh9AoOaIg' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport
-permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-platform=*, ch-ua-platform-version=*
-report-to: {"group":"IdentityListAccountsHttp","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/IdentityListAccountsHttp/external"}]}
 accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-platform=*, ch-ua-platform-version=*
+content-security-policy: require-trusted-types-for 'script';report-uri /_/IdentityListAccountsHttp/cspreport
+content-security-policy: script-src 'report-sample' 'nonce-8XNafmxhQ4PKUSrFdd1chg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'
+content-security-policy: script-src 'nonce-8XNafmxhQ4PKUSrFdd1chg' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport
+report-to: {"group":"IdentityListAccountsHttp","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/IdentityListAccountsHttp/external"}]}
 server: ESF
 x-xss-protection: 0
 alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: index.htm",
+                "infFile": "t1.inf",
+                "time": 1652738798117
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: ListAccounts",
+                "infFile": "t2.inf",
+                "time": 1652738798879
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: crx",
+                "infFile": "t3.inf",
+                "time": 1652738799240
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: json",
+                "infFile": "t4.inf",
+                "time": 1652738799544
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: v1_GetModels",
+                "infFile": "t5.inf",
+                "time": 1652738800093
+            }
+        ],
+        "transactions": []
+    }
+]

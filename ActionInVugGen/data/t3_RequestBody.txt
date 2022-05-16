@@ -1,0 +1,4 @@
+"\n"
+"l\x08\x08\x10\x88\xB8\xC0\xA7\x880 \x082_\n"
+"Ytype.googleapis.com/google.internal.chrome.optimizationguide.v1.PageEntitiesModelMetadata\x12"
+"\x02\x08\x0B\x18\x06*\x05en-US"

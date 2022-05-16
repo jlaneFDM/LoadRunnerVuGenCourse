@@ -1,0 +1,12 @@
+[hosts]
+localhost=
+www.google-analytics.com=
+accounts.google.com=
+optimizationguide-pa.googleapis.com=
+clients2.google.com=
+update.googleapis.com=
+clientservices.googleapis.com=
+content-autofill.googleapis.com=
+www.gstatic.com=
+safebrowsing.googleapis.com=
+beacons.gcp.gvt2.com=

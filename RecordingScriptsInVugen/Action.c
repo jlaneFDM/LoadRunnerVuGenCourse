@@ -36,16 +36,16 @@ Action()
 		"Body= ", 
 		LAST);
 
-	web_url("crx", 
-		"URL=https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=101.0.4951.54&lang=en-US&acceptformat=crx3&x=id%3Diikflkcanblccfahdhdonehdalibjnif%26v%3D0.0.0.0%26installedby%3Dexternal%26uc%26brand%3DCHBF%26ping%3Dr%253D111%2526e%253D1", 
-		"Resource=0", 
-		"RecContentType=text/xml", 
-		"Referer=", 
-		"Snapshot=t3.inf", 
-		"Mode=HTML", 
-		EXTRARES, 
-		"Url=https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS41NBIXCU35IjnBRbgwEgUN541ADhIFDc5BTHoYrKnKAQ==?alt=proto", "Referer=", ENDITEM, 
-		LAST);
+//	web_url("crx", 
+//		"URL=https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=101.0.4951.54&lang=en-US&acceptformat=crx3&x=id%3Diikflkcanblccfahdhdonehdalibjnif%26v%3D0.0.0.0%26installedby%3Dexternal%26uc%26brand%3DCHBF%26ping%3Dr%253D111%2526e%253D1", 
+//		"Resource=0", 
+//		"RecContentType=text/xml", 
+//		"Referer=", 
+//		"Snapshot=t3.inf", 
+//		"Mode=HTML", 
+//		EXTRARES, 
+//		"Url=https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS41NBIXCU35IjnBRbgwEgUN541ADhIFDc5BTHoYrKnKAQ==?alt=proto", "Referer=", ENDITEM, 
+//		LAST);
 
 	lr_think_time(18);
 
@@ -92,24 +92,24 @@ Action()
 
 	lr_think_time(24);
 
-	web_custom_request("json_2", 
-		"URL=https://update.googleapis.com/service/update2/json", 
-		"Method=POST", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		"EncType=application/json", 
-		"Body={\"request\":{\"@os\":\"win\",\"@updater\":\"chrome\",\"acceptformat\":\"crx3\",\"app\":[{\"appid\":\"gkmgaooipdjhmangpemjhigmamcehddo\",\"brand\":\"CHBF\",\"cohort\":\"1:qe3:\",\"cohorthint\":\"Stable\",\"cohortname\":\"Canary\",\"enabled\":true,\"event\":[{\"download_time_ms\":24287,\"downloaded\":6867487,\"downloader\":\"bits\",\"eventresult\":1,\"eventtype\":14,\"nextversion\":\"101.283.200\",\"previousversion\":\"96.276.200\",\"total\":6867487,\"url\":\"http://edgedl.me.gvt1.com/edgedl/"
-		"release2/chrome_component/m2lgttuidiluvhglzomyazebhy_101.283.200/gkmgaooipdjhmangpemjhigmamcehddo_101.283.200_win64_pcdutiti4z5nzglso5e2x2koeu.crx3\"},{\"eventresult\":1,\"eventtype\":3,\"nextfp\":\"1.e576811650ec2102a3fb16bdb8ff791659558df8f10a6f45bee335c326de72ae\",\"nextversion\":\"101.283.200\",\"previousfp\":\"1.9a4393fa2f5a5a43e21ab7365ea12c87ae7be963d6fbcf49abd499ebd7d50b65\",\"previousversion\":\"96.276.200\"}],\"packages\":{\"package\":[{\"fp\":\""
-		"1.e576811650ec2102a3fb16bdb8ff791659558df8f10a6f45bee335c326de72ae\"}]},\"tag\":\"canary_eset_b\",\"version\":\"101.283.200\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"domainjoined\":false,\"hw\":{\"avx\":true,\"physmemory\":8,\"sse\":true,\"sse2\":true,\"sse3\":true,\"sse41\":true,\"sse42\":true,\"ssse3\":true},\"ismachine\":true,\"lang\":\"en-US\",\"nacl_arch\":\"x86-64\",\"os\":{\"arch\":\"x86_64\",\"platform\":\"Windows\",\"version\":\"10.0.22000.613\"},\"prodversion\":\"101.0.4951.54\",\""
-		"protocol\":\"3.1\",\"requestid\":\"{67f99662-a3e7-420d-86c5-3ba5cc10f058}\",\"sessionid\":\"{283c5c21-0d10-4a8c-92c1-2162de839eb8}\",\"updaterversion\":\"101.0.4951.54\"}}", 
-		EXTRARES, 
-		"Url=https://safebrowsing.googleapis.com/v4/threatListUpdates_fetch?$req="
-		"Ch0KDGdvb2dsZWNocm9tZRINMTAxLjAuNDk1MS41NBopCAUQARobCg0IBRAGGAEiAzAwMTABEKndDRoCGAjO8ZIUIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDHyAoaAhgIIXc37iIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQyYILGgIYCKh7_d0iBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgIseeQLSIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQricaAhgIdlLZHyIEIAEgAigEGigIDxABGhoKDQgPEAYYASIDMDAxMAEQrHEaAhgI12tGNCIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAiVNYrTIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAgGgIYCCdzheIiBCABIAIoARooCAgQARoaCg"
-		"0ICBAGGAEiAzAwMTABEJMPGgIYCJl8_-EiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEOS2ARoCGAhXRZofIgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARCQjgoaAhgIfezh6CIEIAEgAigBGikIDhABGhsKDQgOEAYYASIDMDAxMAEQ76wGGgIYCCmgH9MiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEIcRGgIYCKP-IPIiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw", "Referer=", ENDITEM, 
-		LAST);
+//	web_custom_request("json_2", 
+//		"URL=https://update.googleapis.com/service/update2/json", 
+//		"Method=POST", 
+//		"Resource=0", 
+//		"RecContentType=application/json", 
+//		"Referer=", 
+//		"Snapshot=t6.inf", 
+//		"Mode=HTML", 
+//		"EncType=application/json", 
+//		"Body={\"request\":{\"@os\":\"win\",\"@updater\":\"chrome\",\"acceptformat\":\"crx3\",\"app\":[{\"appid\":\"gkmgaooipdjhmangpemjhigmamcehddo\",\"brand\":\"CHBF\",\"cohort\":\"1:qe3:\",\"cohorthint\":\"Stable\",\"cohortname\":\"Canary\",\"enabled\":true,\"event\":[{\"download_time_ms\":24287,\"downloaded\":6867487,\"downloader\":\"bits\",\"eventresult\":1,\"eventtype\":14,\"nextversion\":\"101.283.200\",\"previousversion\":\"96.276.200\",\"total\":6867487,\"url\":\"http://edgedl.me.gvt1.com/edgedl/"
+//		"release2/chrome_component/m2lgttuidiluvhglzomyazebhy_101.283.200/gkmgaooipdjhmangpemjhigmamcehddo_101.283.200_win64_pcdutiti4z5nzglso5e2x2koeu.crx3\"},{\"eventresult\":1,\"eventtype\":3,\"nextfp\":\"1.e576811650ec2102a3fb16bdb8ff791659558df8f10a6f45bee335c326de72ae\",\"nextversion\":\"101.283.200\",\"previousfp\":\"1.9a4393fa2f5a5a43e21ab7365ea12c87ae7be963d6fbcf49abd499ebd7d50b65\",\"previousversion\":\"96.276.200\"}],\"packages\":{\"package\":[{\"fp\":\""
+//		"1.e576811650ec2102a3fb16bdb8ff791659558df8f10a6f45bee335c326de72ae\"}]},\"tag\":\"canary_eset_b\",\"version\":\"101.283.200\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"domainjoined\":false,\"hw\":{\"avx\":true,\"physmemory\":8,\"sse\":true,\"sse2\":true,\"sse3\":true,\"sse41\":true,\"sse42\":true,\"ssse3\":true},\"ismachine\":true,\"lang\":\"en-US\",\"nacl_arch\":\"x86-64\",\"os\":{\"arch\":\"x86_64\",\"platform\":\"Windows\",\"version\":\"10.0.22000.613\"},\"prodversion\":\"101.0.4951.54\",\""
+//		"protocol\":\"3.1\",\"requestid\":\"{67f99662-a3e7-420d-86c5-3ba5cc10f058}\",\"sessionid\":\"{283c5c21-0d10-4a8c-92c1-2162de839eb8}\",\"updaterversion\":\"101.0.4951.54\"}}", 
+//		EXTRARES, 
+//		"Url=https://safebrowsing.googleapis.com/v4/threatListUpdates_fetch?$req="
+//		"Ch0KDGdvb2dsZWNocm9tZRINMTAxLjAuNDk1MS41NBopCAUQARobCg0IBRAGGAEiAzAwMTABEKndDRoCGAjO8ZIUIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDHyAoaAhgIIXc37iIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQyYILGgIYCKh7_d0iBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgIseeQLSIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQricaAhgIdlLZHyIEIAEgAigEGigIDxABGhoKDQgPEAYYASIDMDAxMAEQrHEaAhgI12tGNCIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAiVNYrTIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAgGgIYCCdzheIiBCABIAIoARooCAgQARoaCg"
+//		"0ICBAGGAEiAzAwMTABEJMPGgIYCJl8_-EiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEOS2ARoCGAhXRZofIgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARCQjgoaAhgIfezh6CIEIAEgAigBGikIDhABGhsKDQgOEAYYASIDMDAxMAEQ76wGGgIYCCmgH9MiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEIcRGgIYCKP-IPIiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw", "Referer=", ENDITEM, 
+//		LAST);
 
 	web_url("ping", 
 		"URL=https://clients1.google.com/tools/pso/ping?as=chrome&brand=CHBF&pid=&hl=en&rep=2&rlz=C1:1C1CHBF_enCA866CA866,C2:1C2CHBF_enCA866,C7:1C7CHBF_enCA866", 
@@ -138,33 +138,33 @@ Action()
 		"Name=JSFormSubmit", "Value=off", ENDITEM, 
 		LAST);
 
-	web_custom_request("json_3", 
-		"URL=http://update.googleapis.com/service/update2/json", 
-		"Method=POST", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=", 
-		"Snapshot=t9.inf", 
-		"Mode=HTML", 
-		"EncType=application/json", 
-		"Body={\"request\":{\"@os\":\"win\",\"@updater\":\"chrome\",\"acceptformat\":\"crx3\",\"app\":[{\"appid\":\"hfnkpimlhhgieaddgfemjhofmfblmnib\",\"brand\":\"CHBF\",\"cohort\":\"1:jcl:\",\"cohorthint\":\"Auto\",\"cohortname\":\"Auto\",\"enabled\":true,\"event\":[{\"download_time_ms\":4013,\"downloaded\":24996,\"downloader\":\"bits\",\"eventresult\":1,\"eventtype\":14,\"nextversion\":\"7328\",\"previousversion\":\"7269\",\"total\":24996,\"url\":\"http://edgedl.me.gvt1.com/edgedl/release2/"
-		"chrome_component/iphycxq5qovznqjbb6b6g72xdm_7328/hfnkpimlhhgieaddgfemjhofmfblmnib_7328_all_plukgn4newow6lkmpcc5nbrgzm.crx3\"},{\"eventresult\":1,\"eventtype\":3,\"nextfp\":\"1.530fffe10c07bad64e71aa89db197e13bfd6a0174e010fcf8e8ed90afca97327\",\"nextversion\":\"7328\",\"previousfp\":\"1.d297336324a1b2cb7edc46c0b5026cdb32870ef627b15f820c3c6f59325cffaf\",\"previousversion\":\"7269\"}],\"packages\":{\"package\":[{\"fp\":\"1.530fffe10c07bad64e71aa89db197e13bfd6a0174e010fcf8e8ed90afca97327\"}]},\""
-		"version\":\"7328\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"domainjoined\":false,\"hw\":{\"avx\":true,\"physmemory\":8,\"sse\":true,\"sse2\":true,\"sse3\":true,\"sse41\":true,\"sse42\":true,\"ssse3\":true},\"ismachine\":true,\"lang\":\"en-US\",\"nacl_arch\":\"x86-64\",\"os\":{\"arch\":\"x86_64\",\"platform\":\"Windows\",\"version\":\"10.0.22000.613\"},\"prodversion\":\"101.0.4951.54\",\"protocol\":\"3.1\",\"requestid\":\"{cf70ef20-76b5-4896-aa7a-c51987bbcbf1}\",\"sessionid\":\""
-		"{283c5c21-0d10-4a8c-92c1-2162de839eb8}\",\"updaterversion\":\"101.0.4951.54\"}}", 
-		LAST);
+//	web_custom_request("json_3", 
+//		"URL=http://update.googleapis.com/service/update2/json", 
+//		"Method=POST", 
+//		"Resource=0", 
+//		"RecContentType=application/json", 
+//		"Referer=", 
+//		"Snapshot=t9.inf", 
+//		"Mode=HTML", 
+//		"EncType=application/json", 
+//		"Body={\"request\":{\"@os\":\"win\",\"@updater\":\"chrome\",\"acceptformat\":\"crx3\",\"app\":[{\"appid\":\"hfnkpimlhhgieaddgfemjhofmfblmnib\",\"brand\":\"CHBF\",\"cohort\":\"1:jcl:\",\"cohorthint\":\"Auto\",\"cohortname\":\"Auto\",\"enabled\":true,\"event\":[{\"download_time_ms\":4013,\"downloaded\":24996,\"downloader\":\"bits\",\"eventresult\":1,\"eventtype\":14,\"nextversion\":\"7328\",\"previousversion\":\"7269\",\"total\":24996,\"url\":\"http://edgedl.me.gvt1.com/edgedl/release2/"
+//		"chrome_component/iphycxq5qovznqjbb6b6g72xdm_7328/hfnkpimlhhgieaddgfemjhofmfblmnib_7328_all_plukgn4newow6lkmpcc5nbrgzm.crx3\"},{\"eventresult\":1,\"eventtype\":3,\"nextfp\":\"1.530fffe10c07bad64e71aa89db197e13bfd6a0174e010fcf8e8ed90afca97327\",\"nextversion\":\"7328\",\"previousfp\":\"1.d297336324a1b2cb7edc46c0b5026cdb32870ef627b15f820c3c6f59325cffaf\",\"previousversion\":\"7269\"}],\"packages\":{\"package\":[{\"fp\":\"1.530fffe10c07bad64e71aa89db197e13bfd6a0174e010fcf8e8ed90afca97327\"}]},\""
+//		"version\":\"7328\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"domainjoined\":false,\"hw\":{\"avx\":true,\"physmemory\":8,\"sse\":true,\"sse2\":true,\"sse3\":true,\"sse41\":true,\"sse42\":true,\"ssse3\":true},\"ismachine\":true,\"lang\":\"en-US\",\"nacl_arch\":\"x86-64\",\"os\":{\"arch\":\"x86_64\",\"platform\":\"Windows\",\"version\":\"10.0.22000.613\"},\"prodversion\":\"101.0.4951.54\",\"protocol\":\"3.1\",\"requestid\":\"{cf70ef20-76b5-4896-aa7a-c51987bbcbf1}\",\"sessionid\":\""
+//		"{283c5c21-0d10-4a8c-92c1-2162de839eb8}\",\"updaterversion\":\"101.0.4951.54\"}}", 
+//		LAST);
 
 	lr_think_time(11);
 
-	web_url("welcome.pl", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-		"Snapshot=t10.inf", 
-		"Mode=HTML", 
-		EXTRARES, 
-		"Url=https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS41NBIsCUFCU6JtyxUKEgUNVGIprRIFDXudxKUSBQ0fOzmFEgUN2oWZYRIFDamOSr0YrKnKAQ==?alt=proto", "Referer=", ENDITEM, 
-		LAST);
+//	web_url("welcome.pl", 
+//		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+//		"Resource=0", 
+//		"RecContentType=text/html", 
+//		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+//		"Snapshot=t10.inf", 
+//		"Mode=HTML", 
+//		EXTRARES, 
+//		"Url=https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS41NBIsCUFCU6JtyxUKEgUNVGIprRIFDXudxKUSBQ0fOzmFEgUN2oWZYRIFDamOSr0YrKnKAQ==?alt=proto", "Referer=", ENDITEM, 
+//		LAST);
 
 	lr_think_time(41);
 
